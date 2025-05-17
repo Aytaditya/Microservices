@@ -9,16 +9,14 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/api',(req,res)=>{
-    for(let i=0;i<10000000000;i++){
-        // Simulate some processing
-    }
+    // for(let i=0;i<10000000000;i++){
+    // }
     res.send('API Endpoint');
 })
 
 app.get('/stress',(req,res)=>{
-    for(let i=0;i<100000000000;i++){
-        // Simulate some processing
-    }
+    // for(let i=0;i<100000000000;i++){
+    // }
     res.send('Another API Endpoint');
 })
 
